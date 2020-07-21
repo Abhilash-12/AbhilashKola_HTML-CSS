@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign-in-page</title>
+</head>
+<style >
+	div{
+		margin-left: 20%;
+		margin-right: 20%;
+		padding:12px 20px;
+
+	}
+	.header{
+		background-color: lightblue;
+		width:45%;
+		text-align:center;
+		padding: 12px 20px;
+		margin :8px;
+	}
+	input[type=email],[type=password] {
+	  width: 50%;
+	  padding: 12px 20px;
+	  margin: 8px ;
+	  display: inline-block;
+	  border: 1px solid silver;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	}
+	input[type=submit] {
+	  width: 50%;
+	  background-color: lightblue;
+	  color: white;
+	  padding: 14px 20px;
+	  margin: 8px ;
+	  border-radius: 4px;
+	  cursor: pointer;
+	  border:none;
+	}
+	.button {
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border:none;
+}
+a{
+	color:white;
+	text-decoration: none;
+}
+.button1 {background-color: blue;}
+.button2{background-color: orange}
+.button3{background-color: yellow}
+</style>
+<body>
+	<div>
+	<h2 class="header">Sign in</h2>
+	<form name= "Sign-in">
+		<input type="email" name="email"  placeholder="mail@example.com" required><br>
+		<input type="password" name="password" placeholder="password" required><br>
+		<input type="submit" value="SIGN IN"><br>
+	</form>
+	<p>Forgot your password? <p style="text-align:right;max-width: 50%"> Register!</p></p>
+	<p>----------------------------------------or---------------------------------------</p>
+	<button class="button button1"><b><a href="http://www.facebook.com" target="_blank"> f</a></b></button>
+	<button class="button button2"><b><a href="http://www.gmail.com" target="_blank">g</a></b></button>
+	<button class="button button3"><b>&lt EPAM LOGIN &gt</b></button>
+
+	</div>
+
+</body>
+</html>
